@@ -5,7 +5,7 @@ import Menu from "../Menu/Menu";
 import HeaderContentLeft from "../HeaderContentLeft/HeaderContentLeft";
 import HeaderContentRight from "../HeaderContentRight/HeaderContentRight";
 
-function Header() {
+function Header({ onClickModal }) {
   return (
     <header className={styles.header}>
       <div className={styles["header-top"]}>
@@ -13,7 +13,7 @@ function Header() {
           <img src="/img/Logo.png" alt="logo" />
         </div>
         <Menu />
-        <div className="header-button">
+        <div className="header-button" onClick={onClickModal}>
           <YellowBtn text="Buy now" />
         </div>
       </div>
