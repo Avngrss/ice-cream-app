@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Header/Header";
 import Product from "../Product/Product";
 import BuyModal from "../BuyModal/BuyModal";
+import MadeSec from "../MadeSec/MadeSec";
 
 function App() {
   const [modalOpened, setModalOpened] = React.useState(false);
@@ -11,6 +12,7 @@ function App() {
       <Header onClickModal={() => setModalOpened(true)} />
       <main>
         <Product />
+        <MadeSec />
       </main>
     </div>
   );

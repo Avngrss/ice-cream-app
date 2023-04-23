@@ -1,0 +1,35 @@
+.made {
+  background-color: #84a178;
+  padding: 60px 16px;
+  .madetitle {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fcfcfc;
+    span {
+      font-family: "Seymour One";
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 45px;
+      text-align: center;
+      letter-spacing: 0.06em;
+      color: #fcfcfc;
+    }
+  }
+}
+.madeInfo {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.madeText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 176%;
+  letter-spacing: 0.04em;
+  color: #fcfcfc;
+  margin-bottom: 50px;
+}
