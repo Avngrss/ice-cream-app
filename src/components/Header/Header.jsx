@@ -25,7 +25,7 @@ function Header() {
         <img src="../../../public/img/icecream.png" alt="icecream" />
         <div className={styles.headerBottomText}>
           <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-          <img className={styles.ArrowImg} src="../../../public/img/Arrow.png" alt="arrow" />
+          <img className={styles.ArrowImg} src="/img/Arrow.png" alt="arrow" />
         </div>
       </div>
     </header>
