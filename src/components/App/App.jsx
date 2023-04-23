@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "../Header/Header";
-import CafeCard from "../CafeCard/CafeCard";
-import IceCard from "../IceCard/IceCard";
+import Product from "../Product/Product";
 
 function App() {
   return (
     <div className="container">
       <Header />
-      <IceCard />
-      <CafeCard />
+      <main>
+        <Product />
+      </main>
     </div>
   );
 }

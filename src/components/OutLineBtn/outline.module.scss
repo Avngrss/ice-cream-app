@@ -1,0 +1,16 @@
+.outLineBtn {
+  background: transparent;
+  border: 2px solid #f8d24e;
+  color: #131313;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 18px;
+  transition: color 0.2s ease-in;
+  border-radius: 10px;
+  padding: 12px 34px;
+  cursor: pointer;
+  &:hover {
+    color: #ffffff;
+    border: 2px solid #0a8817;
+  }
+}

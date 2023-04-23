@@ -1,0 +1,29 @@
+.product {
+  background-image: url(../../../public/img/IcecreamBlock2bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0;
+}
+.title {
+  font-weight: 800;
+  font-size: 1.875rem;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #131313;
+  span {
+    font-family: "Seymour One";
+    font-weight: 400;
+    font-size: 2.25rem;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
+.cardContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
