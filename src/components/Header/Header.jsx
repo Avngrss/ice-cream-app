@@ -10,7 +10,7 @@ function Header() {
     <header className={styles.header}>
       <div className={styles["header-top"]}>
         <div className="logo">
-          <img src="/img/logo.png" alt="logo" />
+          <img src="../../../public/img/Logo.png" alt="logo" />
         </div>
         <Menu />
         <div className="header-button">
@@ -22,10 +22,10 @@ function Header() {
         <HeaderContentRight />
       </div>
       <div className={styles.headerBottom}>
-        <img src="/img/icecream.png" alt="icecream" />
+        <img src="../../../public/img/icecream.png" alt="icecream" />
         <div className={styles.headerBottomText}>
           <p className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
-          <img className={styles.ArrowImg} src="/img/Arrow.png" alt="arrow" />
+          <img className={styles.ArrowImg} src="../../../public/img/Arrow.png" alt="arrow" />
         </div>
       </div>
     </header>
