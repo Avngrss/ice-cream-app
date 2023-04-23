@@ -8,7 +8,7 @@ function IceCard({ urlImg, title, text, bg }) {
       <div className={styles.cardBody} style={{ backgroundColor: bg }}>
         <div className={styles.title}>{title}</div>
         <div className={styles.cardText}>{text}</div>
-        <img className={styles.img} src="../../../public/img/Arrow.png" alt="arrow" />
+        <img className={styles.img} src="/img/Arrow.png" alt="arrow" />
       </div>
     </div>
   );
