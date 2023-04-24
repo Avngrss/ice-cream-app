@@ -1,0 +1,25 @@
+.SmallBlockInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.number {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 71px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fcfcfc;
+  margin-top: 40px;
+}
+.text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 176%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #fcfcfc;
+  max-width: 368px;
+  margin-top: 16px;
+}
