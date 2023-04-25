@@ -1,0 +1,72 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+.modal {
+  position: fixed;
+  top: 10%;
+  left: 30%;
+  z-index: 2;
+  width: 568px;
+  height: 644px;
+  background: #fcfcfc;
+  border-radius: 10px;
+  padding: 32px 54px;
+  h3 {
+    font-family: "Seymour One";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #131313;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #131313;
+    margin-bottom: 32px;
+  }
+}
+.modalTitle {
+  font-family: "Seymour One";
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #131313;
+  margin-bottom: 40px;
+}
+.closeModal {
+  text-align: right;
+  cursor: pointer;
+}
+form {
+  margin-bottom: 32px;
+}
+input {
+  display: block;
+  margin-bottom: 16px !important;
+  width: 100%;
+  background: rgba(248, 210, 78, 0.1);
+  border: 1px solid #84a178;
+  border-radius: 10px;
+  padding: 11px 16px;
+}
+textarea {
+  resize: none;
+  width: 100%;
+  border: 1px solid #84a178;
+  border-radius: 10px;
+  padding: 11px 16px;
+  background: rgba(248, 210, 78, 0.1);
+}
+.btn {
+  text-align: center;
+  margin-top: 32px;
+}
