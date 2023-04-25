@@ -1,0 +1,62 @@
+.AdressCard {
+  display: flex;
+  align-items: center;
+  background: #84a178;
+  padding: 10px;
+}
+.card {
+  width: 340px;
+  height: 538px;
+  background: #ffffff;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+  padding: 20px;
+  span {
+    background: #f8d24e;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 186%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #131313;
+  }
+}
+.city {
+  margin-top: 32px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+  letter-spacing: 0.04em;
+  color: #131313;
+}
+.adress {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 183%;
+  letter-spacing: 0.04em;
+  color: #d6936d;
+}
+.worktime {
+  margin: 32px 0;
+}
+.day {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+  letter-spacing: 0.04em;
+  color: #131313;
+}
+.time {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+  color: #ababab;
+}
+.contacts {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 183%;
+  color: #131313;
+}
